@@ -1,0 +1,12 @@
+// Arquivo de config em JSON para o TS
+
+{
+  "compilerOptions": {
+    "outDir": "./dist",
+    "noImplicitAny": true,
+    "module": "CommonJS",
+    "target": "ES6"
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules"]
+}
